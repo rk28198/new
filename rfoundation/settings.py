@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1g(eqs^jutt4c+g%sp5y^sovrb#d@xsgqfu$0mlelx+g_9k+b)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rfoundations.rehokuapp.com']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
